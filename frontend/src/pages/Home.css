@@ -1,0 +1,209 @@
+/* Home.css */
+
+/* ── Layout ─────────────────────────────────────────────────────────────── */
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem 4rem;
+  overflow: hidden;
+}
+
+/* ── Decorative orbs ────────────────────────────────────────────────────── */
+.home__orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+}
+.home__orb--1 {
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, hsl(263 70% 50%), transparent 70%);
+  top: -140px;
+  left: -120px;
+}
+.home__orb--2 {
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, hsl(220 80% 55%), transparent 70%);
+  top: 200px;
+  right: -100px;
+}
+.home__orb--3 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, hsl(180 70% 45%), transparent 70%);
+  bottom: 60px;
+  left: 20%;
+}
+
+/* ── Hero ───────────────────────────────────────────────────────────────── */
+.home__hero {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 760px;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  animation: fadeUp 0.7s ease both;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.home__badge-row {
+  display: flex;
+  justify-content: center;
+}
+
+.home__pill {
+  background: rgba(139, 92, 246, 0.18);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  color: #c4b5fd;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 1rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+}
+
+.home__title {
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: #f1f5f9;
+  margin: 0;
+}
+.home__title--accent {
+  background: linear-gradient(135deg, hsl(263 80% 65%), hsl(220 80% 65%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home__subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: #94a3b8;
+  line-height: 1.7;
+  max-width: 580px;
+  margin: 0;
+}
+
+.home__status {
+  margin-top: 0.4rem;
+}
+
+/* ── CTA Buttons ────────────────────────────────────────────────────────── */
+.home__cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.6rem;
+}
+
+.btn {
+  padding: 0.75rem 1.8rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  border: none;
+  outline: none;
+}
+.btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+.btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn--primary {
+  background: linear-gradient(135deg, hsl(263 70% 55%), hsl(220 75% 55%));
+  color: #fff;
+  box-shadow: 0 4px 18px rgba(139, 92, 246, 0.35);
+}
+.btn--primary:hover:not(:disabled) {
+  box-shadow: 0 8px 28px rgba(139, 92, 246, 0.55);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: #94a3b8;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  backdrop-filter: blur(8px);
+}
+.btn--ghost:hover {
+  color: #e2e8f0;
+  border-color: rgba(148, 163, 184, 0.5);
+}
+
+/* ── Feature cards ──────────────────────────────────────────────────────── */
+.home__features {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.4rem;
+  max-width: 1100px;
+  width: 100%;
+  margin-top: 5rem;
+  animation: fadeUp 0.9s 0.25s ease both;
+}
+
+.feature-card {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  border-radius: 16px;
+  padding: 1.8rem;
+  backdrop-filter: blur(14px);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  border-color: rgba(139, 92, 246, 0.35);
+}
+
+.feature-card__icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.feature-card__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin: 0 0 0.5rem;
+}
+
+.feature-card__desc {
+  font-size: 0.88rem;
+  color: #64748b;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .home__hero { margin-top: 3.5rem; }
+  .home__features { grid-template-columns: 1fr; }
+}

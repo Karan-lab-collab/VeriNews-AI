@@ -1,0 +1,56 @@
+/* ── Global Reset & Base ────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg:      hsl(222 47% 5%);
+  --color-surface: hsl(222 40% 9%);
+  --color-border:  rgba(148, 163, 184, 0.1);
+  --color-text:    hsl(215 25% 90%);
+  --color-muted:   hsl(215 20% 55%);
+  --color-accent:  hsl(263 70% 60%);
+  --font-sans:     'Inter', system-ui, -apple-system, sans-serif;
+  --radius-lg:     16px;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove Vite default styles */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+/* Selection */
+::selection {
+  background: hsl(263 70% 55% / 0.35);
+  color: #fff;
+}
