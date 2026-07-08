@@ -9,9 +9,23 @@ httpx>=0.27.0
 python-dotenv>=1.0.0
 python-multipart>=0.0.9
 
-# ── (Placeholders for future ML work) ────────────────────────────────────────
+# ── Machine Learning (Milestone 1) ───────────────────────────────────────────
+scikit-learn>=1.5.0
+pandas>=2.2.0
+numpy>=1.26.0
+joblib>=1.4.0
+
+# ── Data acquisition ──────────────────────────────────────────────────────────
+kaggle>=1.6.0            # Kaggle API (requires ~/.kaggle/kaggle.json)
+datasets>=2.19.0         # HuggingFace datasets (fallback downloader)
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# ── Progress bars ─────────────────────────────────────────────────────────────
+tqdm>=4.66.0
+
+# ── Future deep-learning (uncomment when ready) ───────────────────────────────
 # torch>=2.3.0
 # transformers>=4.41.0
-# scikit-learn>=1.5.0
-# pandas>=2.2.0
-# numpy>=1.26.0

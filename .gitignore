@@ -50,8 +50,8 @@ desktop.ini
 *.h5
 *.pkl
 *.joblib
-data/raw/
-data/processed/
+backend/datasets/
+backend/saved_models/
 
 # ── Misc ──────────────────────────────────────────────────────────────────────
 *.log

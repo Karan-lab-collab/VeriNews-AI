@@ -1,0 +1,61 @@
+text,label,category,predicted,confidence,correct
+"NASA's James Webb Space Telescope has captured unprecedented infrared images of the Carina Nebula, revealing thousands of never-before-seen young stars in the stellar nursery located 7,600 light-years away.",REAL,Space,FAKE,89.18,False
+Scientists at the European Space Agency confirmed that the Mars Express orbiter has detected signs of liquid water beneath the southern polar ice cap of Mars using radar instruments.,REAL,Space,FAKE,60.18,False
+"ISRO successfully launched the Aditya-L1 solar observatory spacecraft, placing it in a halo orbit around the Lagrange point 1, approximately 1.5 million kilometres from Earth.",REAL,Space,FAKE,76.61,False
+"Astronomers using the Hubble Space Telescope have measured the expansion rate of the universe with greater precision, deepening what scientists call the Hubble tension.",REAL,Space,FAKE,59.77,False
+"The International Space Station completed its 100,000th orbit around Earth, a milestone mission controllers celebrated with a live broadcast from the orbiting laboratory.",REAL,Space,FAKE,62.29,False
+NASA scientists announced that the Moon is made entirely of dark chocolate and that astronauts have been secretly eating it since 1969.,FAKE,Space,FAKE,75.24,True
+"Aliens have landed on the Moon and established a base, which NASA is hiding from the public in classified documents, according to an anonymous whistleblower.",FAKE,Space,FAKE,82.15,True
+"Scientists published a peer-reviewed study in Nature confirming that a new mRNA vaccine formulation reduces the severity of influenza by 78 percent in clinical trials involving 40,000 participants.",REAL,Health,FAKE,56.48,False
+The World Health Organization declared the end of the mpox public health emergency of international concern after cases declined significantly across affected regions.,REAL,Health,FAKE,52.12,False
+Researchers at Johns Hopkins University found that moderate aerobic exercise performed five times per week reduces the risk of cardiovascular disease by 35 percent in adults over 50.,REAL,Health,FAKE,62.11,False
+A new study published in The Lancet shows that ultra-processed food consumption is strongly associated with increased risk of type 2 diabetes and colorectal cancer.,REAL,Health,FAKE,77.02,False
+"Scientists have confirmed that humans can breathe underwater without any equipment, and hospitals are covering up this discovery to keep selling oxygen tanks.",FAKE,Health,FAKE,69.19,True
+Drinking bleach in small doses cures cancer according to a secret study suppressed by pharmaceutical companies worldwide.,FAKE,Health,FAKE,70.82,True
+"Apple Inc. reported quarterly revenue of $94.9 billion, driven by strong iPhone sales in emerging markets and growth in its services segment including Apple Music and the App Store.",REAL,Technology,FAKE,54.76,False
+Google DeepMind researchers published a paper demonstrating that their latest AI model achieved superhuman performance on a broad set of scientific reasoning benchmarks.,REAL,Technology,FAKE,71.25,False
+"Microsoft announced the general availability of its Azure AI Foundry platform, offering enterprise customers access to over 1,800 AI models through a unified API.",REAL,Technology,FAKE,73.01,False
+"Meta released a new open-source large language model with 70 billion parameters, which developers can download and run locally on high-end consumer hardware.",REAL,Technology,FAKE,67.78,False
+Apple is set to release the iPhone 50 next week with a chip that is one million times faster than any current computer and a battery that lasts ten years on a single charge.,FAKE,Technology,FAKE,69.81,True
+"Scientists confirm that 5G towers cause spontaneous human combustion, with over 200 unreported deaths linked to the technology.",FAKE,Technology,FAKE,60.52,True
+"The Reserve Bank of India raised the repo rate by 25 basis points to 6.75 percent in its monetary policy committee meeting, citing persistent food inflation pressures.",REAL,Finance,REAL,68.36,True
+"India's foreign exchange reserves rose to a record $680 billion, buoyed by strong capital inflows and a narrowing current account deficit, according to RBI data.",REAL,Finance,REAL,61.88,True
+The Securities and Exchange Board of India imposed a penalty of 10 crore rupees on a brokerage firm for front-running trades on behalf of institutional clients.,REAL,Finance,FAKE,58.01,False
+"Bitcoin surpassed the $100,000 mark for the first time, driven by institutional demand following the approval of spot Bitcoin ETFs in multiple jurisdictions.",REAL,Finance,FAKE,75.5,False
+"The government has secretly been printing money and hiding it on the Moon, which is causing inflation according to a viral social media post.",FAKE,Finance,FAKE,68.94,True
+Warren Buffett announced he is giving away all his wealth to build a spaceship that will mine gold from asteroids to pay off the US national debt.,FAKE,Finance,FAKE,71.95,True
+"The Indian Parliament passed the Digital Personal Data Protection Bill, establishing new rules for how companies must handle and store personal data of Indian citizens.",REAL,Politics,REAL,53.64,True
+"The United Nations Security Council adopted a resolution calling for an immediate humanitarian ceasefire, with 14 members voting in favour and one abstaining.",REAL,Politics,FAKE,52.58,False
+BBC reported that the UK government announced a comprehensive review of its net zero emissions policy following mounting pressure from backbench MPs.,REAL,Politics,FAKE,64.63,False
+Reuters reported that the European Union and the United States reached a preliminary agreement on a framework for regulating artificial intelligence at the international level.,REAL,Politics,REAL,90.84,True
+"The Prime Minister of India has been secretly replaced by a robot programmed by a foreign government, according to a viral message spreading on WhatsApp.",FAKE,Politics,REAL,59.68,False
+A leaked document proves that every election in democratic countries is rigged by a secret council of billionaires who meet monthly to decide outcomes.,FAKE,Conspiracy,FAKE,66.08,True
+The Illuminati has been controlling world governments since the 18th century and plans to announce a one-world government by the end of this decade.,FAKE,Conspiracy,FAKE,64.34,True
+5G towers are actually mind-control devices placed by the World Economic Forum to make the population compliant with globalist policies.,FAKE,Conspiracy,FAKE,72.68,True
+"Chemtrails from aircraft contain neurotoxins that reduce human intelligence by 30 percent, according to a study that universities are refusing to publish.",FAKE,Conspiracy,FAKE,66.45,True
+"The moon landing was faked in a Hollywood studio, and astronaut Neil Armstrong confessed to it on his deathbed, according to a family member.",FAKE,Conspiracy,FAKE,77.0,True
+"Tata Consultancy Services reported a consolidated net profit of 12,434 crore rupees for the third quarter, beating analyst estimates by a comfortable margin.",REAL,Business,FAKE,66.97,False
+"Reliance Industries announced a strategic investment of 75,000 crore rupees in renewable energy infrastructure over the next five years.",REAL,Business,FAKE,52.89,False
+"Amazon Web Services reported a 17 percent year-on-year revenue increase, making it the dominant player in the cloud infrastructure market for the twelfth consecutive quarter.",REAL,Business,REAL,56.16,True
+"The Bombay Stock Exchange Sensex crossed the 80,000-point milestone for the first time, reflecting strong foreign institutional investor inflows and domestic retail participation.",REAL,Business,FAKE,59.99,False
+YOU WON'T BELIEVE what this one simple trick does to your bank account overnight — financial experts are furious and trying to get this article removed.,FAKE,Clickbait,FAKE,58.66,True
+"Doctors hate her! A housewife from Pune discovered a natural secret that eliminates all debt in 30 days, and banks are scrambling to shut her down.",FAKE,Clickbait,FAKE,77.49,True
+This one fruit eaten at midnight causes you to lose 10 kilograms of fat in one week — click before this is taken down.,FAKE,Clickbait,FAKE,68.67,True
+"The Indian cricket team defeated Australia by six wickets in the third Test match at the MCG, with Shubman Gill scoring a match-winning century.",REAL,Sports,FAKE,67.91,False
+"FIFA announced that the 2026 World Cup will feature 48 teams for the first time, expanding from the traditional 32-team format used since 1998.",REAL,Sports,FAKE,75.34,False
+"Novak Djokovic won his record-extending 25th Grand Slam title at the Australian Open, defeating an opponent in four sets in the final.",REAL,Sports,REAL,66.85,True
+Researchers found that Earth will completely disappear from the solar system tomorrow at exactly 3 PM Eastern Time due to a cosmic event.,FAKE,Obvious Fake,FAKE,69.76,True
+"Scientists confirmed that gravity is a lie invented by governments to stop people from floating away, and the Earth is actually flat.",FAKE,Obvious Fake,FAKE,81.22,True
+The Indian Meteorological Department issued a red alert for heavy to very heavy rainfall across the coastal districts of Kerala and Karnataka over the next 48 hours.,REAL,Weather,FAKE,68.33,False
+"The National Weather Service warned of an approaching Category 4 hurricane making landfall along the Gulf Coast, urging residents to evacuate low-lying areas immediately.",REAL,Weather,REAL,57.99,True
+"A prolonged heatwave across northwest India pushed temperatures above 45 degrees Celsius in several cities, prompting authorities to open cooling centres for vulnerable residents.",REAL,Weather,FAKE,52.06,False
+"The weather forecast confirmed that it will rain gold coins in Delhi next Tuesday, and citizens should prepare buckets to collect the windfall.",FAKE,Weather,FAKE,53.64,True
+"Bollywood actor Ranveer Singh has been signed for a multi-film deal with a major Hollywood studio, marking a significant crossover in Indian cinema.",REAL,Entertainment,FAKE,64.64,False
+"The Academy Awards ceremony returned to a traditional format this year, with the Best Picture award going to an independent drama produced on a modest budget.",REAL,Entertainment,FAKE,57.45,False
+A popular streaming platform announced the cancellation of a critically acclaimed series after three seasons despite a large subscriber base petitioning for renewal.,REAL,Entertainment,FAKE,66.29,False
+A report from the Mumbai police revealed a sharp decline in cybercrime incidents following the launch of a new digital literacy programme in local schools.,REAL,Local News,FAKE,66.92,False
+The Pune Municipal Corporation announced a Rs 500 crore infrastructure upgrade plan for the city's roads and drainage systems ahead of the monsoon season.,REAL,Local News,FAKE,58.49,False
+Scientists at CERN announced the discovery of a new subatomic particle that challenges existing models of particle physics and may require a revision of the Standard Model.,REAL,Science,FAKE,66.33,False
+A peer-reviewed study in Science magazine found that ocean acidification is accelerating at a rate 10 times faster than any time in the past 66 million years.,REAL,Science,FAKE,70.95,False
+"Researchers have developed a room-temperature superconductor material that could revolutionise energy transmission, computing, and magnetic levitation technologies.",REAL,Science,FAKE,61.15,False
+Scientists confirmed that the speed of light is wrong and actually humans can travel faster than it using a simple meditation technique taught in an online course.,FAKE,Science,FAKE,77.64,True
