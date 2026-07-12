@@ -1,0 +1,13 @@
+{
+  "sample_size": 10000,
+  "mean": 456.2604,
+  "median": 414.0,
+  "p75": 578.0,
+  "p90": 823.1000000000004,
+  "p95": 997.0,
+  "p99": 1585.0300000000007,
+  "max": 5919,
+  "min": 5,
+  "tokenizer": "distilbert-base-uncased",
+  "notes": "Lengths include [CLS] and [SEP] special tokens. Articles longer than MAX_SEQ_LEN will be truncated from the end."
+}

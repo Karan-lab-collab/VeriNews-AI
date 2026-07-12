@@ -26,6 +26,7 @@ seaborn>=0.13.0
 # ── Progress bars ─────────────────────────────────────────────────────────────
 tqdm>=4.66.0
 
-# ── Future deep-learning (uncomment when ready) ───────────────────────────────
-# torch>=2.3.0
-# transformers>=4.41.0
+# ── Deep learning (Milestone 2 — DistilBERT) ─────────────────────────────────
+torch>=2.3.0
+transformers>=4.41.0
+accelerate>=0.30.0
